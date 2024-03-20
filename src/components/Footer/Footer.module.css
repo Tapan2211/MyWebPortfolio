@@ -1,0 +1,26 @@
+.main_div{
+    background-color: #222;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: #323232;
+    color: #bac964;
+    border-radius: 50%;
+    padding: px;
+    margin: 5px;
+}
+
+.logo:hover{
+    background-color: #bac964;
+    color: white;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #7a7a7a;
+}

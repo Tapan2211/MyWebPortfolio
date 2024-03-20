@@ -1,0 +1,140 @@
+/* Navbar.module.css */
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+
+.navbar {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Ensure Navbar is above other elements */
+    background-color: transparent; /* Make the Navbar transparent */
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: orange;
+    margin: 5px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* .menu a:hover {
+    border-radius: 5px;
+    color: #bac964;
+    -webkit-transform: scale(1.106);
+    -moz-transform: scale(1.106);
+    transform: scale(1.106);
+    cursor: pointer;
+} */
+
+.user_profile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.user_profile:hover{
+    -webkit-transform: scale(1.106);
+    -moz-transform: scale(1.106);
+    transform: scale(1.106);
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    top: 30px; 
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 999;
+  }
+
+  .nav_menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav_menu.open {
+    display: block;
+  }
+
+@media (max-width: 768px) {
+
+    /* Show menu icon and hide menu on smaller screens */
+    .menuIcon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #2e2e2e;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+  
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #bac964;
+    -webkit-transform: scale(1.106);
+    -moz-transform: scale(1.106);
+    transform: scale(1.106);
+}
