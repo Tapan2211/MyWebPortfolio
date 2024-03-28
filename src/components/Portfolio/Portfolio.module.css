@@ -1,0 +1,27 @@
+.main_div {
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main_div h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    font-weight: 600;
+}
+
+.sub_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}

@@ -8,12 +8,14 @@ import About from '../About/About';
 import Footer from "../Footer/Footer";
 import Contact from "../Contact/Contact";
 import Resume from "../Resume/Resume";
+import Portfolio from "../Portfolio/Portfolio";
 
 function Home() {
     return (
         <div id="/">
             <Navbar/>
             <HeroSection/>
+            <Portfolio id="portfolio"/>
             <Resume id="resume"/>
             <About id="about"/>
             <Contact id="contact"/>

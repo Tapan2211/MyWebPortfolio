@@ -13,10 +13,10 @@ function Contact() {
                 <div className={styles.content_div}>
                     <h2>Get In Touch</h2>
                     <Box component="form" >
-                        <TextField style={{width:'100%', margin:'5px'}} id="outlined-basic" label="Full name" variant="outlined" />
-                        <TextField style={{width:'100%', margin:'5px'}} id="outlined-basic" label="Email" variant="outlined" />
-                        <TextField style={{width:'100%', margin:'5px'}} id="outlined-basic" label="Mobile no" variant="outlined" />
-                        <TextField style={{width:'100%', margin:'5px'}} id="filled-multiline-static" label="Address" multiline rows={4} variant="outlined" />
+                        <TextField style={{width:'100%',marginBottom:'5px'}} id="outlined-basic" label="Full name" variant="outlined" />
+                        <TextField style={{width:'100%',marginBottom:'5px'}} id="outlined-basic" label="Email" variant="outlined" />
+                        <TextField style={{width:'100%',marginBottom:'5px'}} id="outlined-basic" label="Mobile no" variant="outlined" />
+                        <TextField style={{width:'100%',marginBottom:'5px'}} id="filled-multiline-static" label="Address" multiline rows={4} variant="outlined" />
                         <Button style={{justifyContent:'start', alignItems:'start', display:'flex', margin:'5px'}} variant="outlined">SEND MESSAGE</Button>
                     </Box>
                 </div>

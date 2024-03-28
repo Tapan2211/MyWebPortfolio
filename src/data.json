@@ -1,0 +1,41 @@
+
+{
+    "projects":[
+        {
+            "id": 1,
+            "name":"Qtrip Static",
+            "image":"qtrip_static.png",
+            "link":"https://qtriptapanghataliya.netlify.app/"
+        },
+        {
+            "id": 2,
+            "name":"Qtrip Dynamic",
+            "image":"qtrip_dynamic.png",
+            "link":"https://sunny-sunflower-4f67c9.netlify.app/"
+        },
+        {
+            "id": 3,
+            "name":"Qkart",
+            "image":"qkarts.png",
+            "link":"https://qkartfrontend-jzobp0dlj-tapans-projects-b637b212.vercel.app/"
+        },
+        {
+            "id": 4,
+            "name":"Qtify",
+            "image":"qtify.png",
+            "link":"https://qtify-ruby.vercel.app/"
+        },
+        {
+            "id": 5,
+            "name":"Igstudio",
+            "image":"igstudio.png",
+            "link":"https://igstudio-law-firm-website.vercel.app/"
+        },
+        {
+            "id": 6,
+            "name":"News Feed",
+            "image":"news_feed.png",
+            "link":"https://xboard-tapan.netlify.app/"
+        }
+    ]
+}
