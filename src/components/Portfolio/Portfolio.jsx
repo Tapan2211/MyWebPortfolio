@@ -14,7 +14,6 @@ function Portfolio() {
                     projectList.projects.map(project => (
                         <div key={project.id}>
                             <Box data={project} />
-
                         </div>
                     ))
                 }

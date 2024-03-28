@@ -5,43 +5,50 @@
             "id": 1,
             "name":"Qtrip Static",
             "image":"qtrip_static.png",
-            "link":"https://qtriptapanghataliya.netlify.app/"
+            "link":"https://qtriptapanghataliya.netlify.app/",
+            "github":"https://github.com/Tapan2211/tghataliya-ME_QTRIPDYNAMIC"
         },
         {
             "id": 2,
             "name":"Qtrip Dynamic",
             "image":"qtrip_dynamic.png",
-            "link":"https://sunny-sunflower-4f67c9.netlify.app/"
+            "link":"https://sunny-sunflower-4f67c9.netlify.app/",
+            "github":"https://github.com/Tapan2211/tghataliya-ME_QTRIPDYNAMIC"
         },
         {
             "id": 3,
             "name":"Qkart",
             "image":"qkarts.png",
-            "link":"https://qkartfrontend-jzobp0dlj-tapans-projects-b637b212.vercel.app/"
+            "link":"https://qkartfrontend-jzobp0dlj-tapans-projects-b637b212.vercel.app/",
+            "github":"https://github.com/Tapan2211/tghataliya-ME_QKART_FRONTEND_V2"
         },
         {
             "id": 4,
             "name":"Qtify",
             "image":"qtify.png",
-            "link":"https://qtify-ruby.vercel.app/"
+            "link":"https://qtify-ruby.vercel.app/",
+            "github":"https://github.com/Tapan2211/L-square-QTify"
         },
         {
             "id": 5,
             "name":"Igstudio",
             "image":"igstudio.png",
-            "link":"https://igstudio-law-firm-website.vercel.app/"
+            "link":"https://igstudio-law-firm-website.vercel.app/",
+            "github":"https://github.com/Tapan2211/law-firm"
         },
         {
             "id": 6,
             "name":"News Feed",
             "image":"news_feed.png",
-            "link":"https://xboard-tapan.netlify.app/"
+            "link":"https://xboard-tapan.netlify.app/",
+            "github":""
         },
         {
             "id": 7,
             "name":"My Portfolio",
             "image":"portfolio.png",
-            "link":"https://my-web-portfolio-eosin.vercel.app/"
+            "link":"https://my-web-portfolio-eosin.vercel.app/",
+            "github":"https://github.com/Tapan2211/MyWebPortfolio"
         }
     ]
 }

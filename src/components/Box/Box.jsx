@@ -1,12 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import styles from './Box.module.css';
 import { Tooltip } from '@mui/material';
-
-import MYPHOTO from '../../assets/my_pic.jpg';
+import GitHubIcon from '@mui/icons-material/GitHub'; 
+import LinkIcon from '@mui/icons-material/Link';
 
 import qtrip_static from '../../assets/qtrip_static.png';
 import qtrip_dynamic from '../../assets/qtrip_dynamic.png';
@@ -23,14 +23,18 @@ const imageMap = {
     'qtify.png': qtify,
     'igstudio.png': igstudio,
     'news_feed.png': news_feed,
-    'portfolio.png':portfolio
+    'portfolio.png': portfolio
 };
 
 export default function MediaCard({ data }) {
-    const { name, image, link } = data;
+    const { name, image, link, github } = data;
 
-    const handleClick = (link) => {
+    const handleLink = (link) => {
         window.open(link, '_blank');
+    }
+
+    const handleGitHubLink = (github) => {
+        window.open(github, "_blank")
     }
 
     return (
@@ -41,10 +45,9 @@ export default function MediaCard({ data }) {
                     image={imageMap[image]}
                     title={name}
                 >
-                    <CardContent className={styles.cardContent} onClick={() => handleClick(link)}>
-                        <Typography component="div" className={styles.bottomCenter}>
-                            {name}
-                        </Typography>
+                    <CardContent className={styles.cardContent}>                    
+                        <LinkIcon style={{height:'40px', width:'40px'}} className={styles.logo} onClick={()=>handleLink(link)}/>
+                        <GitHubIcon style={{height:'40px', width:'40px'}} className={styles.logo} onClick={()=>handleGitHubLink(github)}/> 
                     </CardContent>
                 </CardMedia>
 
