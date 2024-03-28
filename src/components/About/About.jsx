@@ -27,9 +27,8 @@ function About() {
                 </h1>
 
                 <p style={{ color: '#ededed', justifyContent: 'start', textAlign: 'start' }}>
-                    Separated they live in Bookmarksgrove right at the<br /> coast of the Semantics, a large language ocean.
-                    <br />
-                    A small river named Duden flows by their place and supplies it with the <br />necessary regelialia. It is a paradisematic country, <br />in which roasted parts of sentences fly into your mouth.
+                    
+With over 5 years of experience in web development, I specialize in frontend technologies such as HTML, CSS, Bootstrap, JavaScript, and jQuery. I have honed my skills in React.js, including Material-UI and TypeScript, with 2 years of hands-on experience. Recently, I've been expanding my expertise by learning backend technologies like Express.js and MongoDB, aiming to build full-stack applications seamlessly. My diverse skill set enables me to create dynamic and user-friendly web applications with a focus on modern design and functionality.
                 </p><br />
 
                 <button variant="outlined" className={styles.btn} onClick={() => downloadPDF()}>
