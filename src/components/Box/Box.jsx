@@ -30,11 +30,15 @@ export default function MediaCard({ data }) {
     const { name, image, link, github } = data;
 
     const handleLink = (link) => {
-        window.open(link, '_blank');
+        if (link && link.trim() !== '') { // Check if link is not empty or null
+            window.open(link, '_blank');
+        }
     }
 
     const handleGitHubLink = (github) => {
-        window.open(github, "_blank")
+        if (github && github.trim() !== '') { // Check if github is not empty or null
+            window.open(github, '_blank');
+        }
     }
 
     return (
