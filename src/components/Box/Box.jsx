@@ -14,6 +14,7 @@ import qkart from '../../assets/qkarts.png';
 import qtify from '../../assets/qtify.png';
 import igstudio from '../../assets/igstudio.png';
 import news_feed from '../../assets/news_feed.png';
+import portfolio from '../../assets/portfolio.png';
 
 const imageMap = {
     'qtrip_static.png': qtrip_static,
@@ -22,6 +23,7 @@ const imageMap = {
     'qtify.png': qtify,
     'igstudio.png': igstudio,
     'news_feed.png': news_feed,
+    'portfolio.png':portfolio
 };
 
 export default function MediaCard({ data }) {

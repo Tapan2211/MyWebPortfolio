@@ -36,6 +36,12 @@
             "name":"News Feed",
             "image":"news_feed.png",
             "link":"https://xboard-tapan.netlify.app/"
+        },
+        {
+            "id": 7,
+            "name":"My Portfolio",
+            "image":"portfolio.png",
+            "link":"https://my-web-portfolio-eosin.vercel.app/"
         }
     ]
 }
