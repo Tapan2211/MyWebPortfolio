@@ -10,7 +10,7 @@ function HeroSection() {
                     Hello, I'm <br />
                     Tapan Ghataliya
                 </p>
-                <h6>AND THIS IS MY REZUME</h6>
+                <h6>AND THIS IS MY RESUME</h6>
             </div>
         </div>
        
