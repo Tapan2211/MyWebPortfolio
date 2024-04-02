@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 20px; 
+    padding-top: 80px; 
 }
 
 /* h2{
@@ -135,3 +135,10 @@ span{
   
   
 
+        /* Media query for smaller screens */
+        @media (max-width: 767px) {
+          .content_div {
+              width: 90%; /* Adjust width as needed */
+              margin: 10px auto; /* Center the div horizontally */
+          }
+      }

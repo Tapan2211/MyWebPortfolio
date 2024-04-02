@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 80px 20px;
+   padding-top: 80px;
 }
 
 .main_div h2 {
@@ -22,6 +22,6 @@ span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }

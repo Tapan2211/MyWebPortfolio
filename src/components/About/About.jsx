@@ -26,7 +26,7 @@ function About() {
                     About Me
                 </h1>
 
-                <p style={{ color: '#ededed', justifyContent: 'start', textAlign: 'start' }}>
+                <p style={{ color: '#ededed', justifyContent: 'start', textAlign: 'justify' }}>
                     
 With over 5 years of experience in web development, I specialize in frontend technologies such as HTML, CSS, Bootstrap, JavaScript, and jQuery. I have honed my skills in React.js, including Material-UI and TypeScript, with 2 years of hands-on experience. Recently, I've been expanding my expertise by learning backend technologies like Express.js and MongoDB, aiming to build full-stack applications seamlessly. My diverse skill set enables me to create dynamic and user-friendly web applications with a focus on modern design and functionality.
                 </p><br />

@@ -48,6 +48,7 @@ export default function MediaCard({ data }) {
                     sx={{ height: 340, width: 300 }}
                     image={imageMap[image]}
                     title={name}
+                    className={styles.img}
                 >
                     <CardContent className={styles.cardContent}>                    
                         <LinkIcon style={{height:'40px', width:'40px'}} className={styles.logo} onClick={()=>handleLink(link)}/>

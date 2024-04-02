@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* padding: 80px 20px; */
+    padding-top: 80px;
 }
 
 .main_div h2 {
@@ -83,3 +83,12 @@ span {
         width: calc(50% - 20px);
     }
 }
+
+
+        /* Media query for smaller screens */
+        @media (max-width: 767px) {
+            .content_div {
+                width: 90%; /* Adjust width as needed */
+                margin: 10px auto; /* Center the div horizontally */
+            }
+        }

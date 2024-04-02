@@ -15,8 +15,8 @@ function Footer(){
             <div>
                 <GitHubIcon onClick={()=>handleClick('https://github.com/Tapan2211')} style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} />
                 <LinkedInIcon onClick={()=>handleClick('https://www.linkedin.com/in/tapan-ghataliya-9a8a3083/')} style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} />
-                <InstagramIcon style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} />
-                <FacebookIcon style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} />
+                {/* <InstagramIcon style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} />
+                <FacebookIcon style={{height:'50px', width:'50px', padding:'10px'}} className={styles.logo} /> */}
     
             </div>
     

@@ -13,6 +13,7 @@
     border-radius: 50%;
     padding: px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .logo:hover{
