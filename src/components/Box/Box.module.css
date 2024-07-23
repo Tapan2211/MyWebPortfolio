@@ -1,5 +1,3 @@
-
-
 .main {
   margin: 15px;
 }
@@ -30,16 +28,18 @@
   cursor: pointer;
 }
 
-.logo{
+.logo {
   background-color: #323232;
   color: #bac964;
   border-radius: 50%;
   padding: 5px;
   margin: 5px;
   cursor: pointer;
+  height: 40px !important;
+  width: 40px !important;
 }
 
-.logo:hover{
+.logo:hover {
   background-color: #bac964;
   color: white;
 }

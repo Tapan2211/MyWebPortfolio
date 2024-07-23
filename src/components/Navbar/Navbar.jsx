@@ -23,10 +23,11 @@ function Navbar() {
             <div className={`${styles.menu} ${showMenu ? styles.show : ''}`}>
                 <Link to="/" duration={500} className={styles.link}>HOME</Link>
                 <Link to="portfolio" smooth={false} duration={500} className={styles.link}>PORTFOLIO</Link>
+                <Link to="skill" smooth={false} duration={500} className={styles.link}>SKILL</Link>
                 <Link to="resume" smooth={false} duration={500} className={styles.link}>RESUME</Link>
                 <Link to="about" smooth={false} duration={500} className={styles.link}>ABOUT</Link>
                 <Link to="contact" smooth={false} duration={500} className={styles.link}>CONTACT</Link>
-               
+
             </div>
 
         </div>

@@ -33,12 +33,15 @@ span {
     padding: 10px;
     color: white;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /* background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     box-sizing: border-box; */
 }
 
-.content_div h2{
+.content_div h2 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -85,10 +88,12 @@ span {
 }
 
 
-        /* Media query for smaller screens */
-        @media (max-width: 767px) {
-            .content_div {
-                width: 90%; /* Adjust width as needed */
-                margin: 10px auto; /* Center the div horizontally */
-            }
-        }
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .content_div {
+        width: 90%;
+        /* Adjust width as needed */
+        margin: 10px auto;
+        /* Center the div horizontally */
+    }
+}

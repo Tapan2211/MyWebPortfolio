@@ -9,17 +9,19 @@ import Footer from "../Footer/Footer";
 import Contact from "../Contact/Contact";
 import Resume from "../Resume/Resume";
 import Portfolio from "../Portfolio/Portfolio";
+import Skill from "../Skill/Skill";
 
 function Home() {
     return (
         <div id="/">
-            <Navbar/>
-            <HeroSection/>
-            <Portfolio id="portfolio"/>
-            <Resume id="resume"/>
-            <About id="about"/>
-            <Contact id="contact"/>
-            <Footer/>
+            <Navbar />
+            <HeroSection />
+            <Portfolio id="portfolio" />
+            <Skill id="skill" />
+            <Resume id="resume" />
+            <About id="about" />
+            <Contact id="contact" />
+            <Footer />
         </div>
     )
 }
