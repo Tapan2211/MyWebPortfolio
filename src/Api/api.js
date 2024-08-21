@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BaseURL = 'http://localhost:8082';
+// const BaseURL = 'http://localhost:8082';
+const BaseURL = 'https://mywebportfoliobackend.onrender.com';
 
 export const getSkill = async (obj) => {
     try {
