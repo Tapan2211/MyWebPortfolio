@@ -27,8 +27,13 @@ function About() {
                 </h1>
 
                 <p style={{ color: '#ededed', justifyContent: 'start', textAlign: 'justify' }}>
-                    
-With over 5 years of experience in web development, I specialize in frontend technologies such as HTML, CSS, Bootstrap, JavaScript, and jQuery. I have honed my skills in React.js, including Material-UI and TypeScript, with 2 years of hands-on experience. Recently, I've been expanding my expertise by learning backend technologies like Express.js and MongoDB, aiming to build full-stack applications seamlessly. My diverse skill set enables me to create dynamic and user-friendly web applications with a focus on modern design and functionality.
+                    Experienced Front End cum Full Stack Developer with around 3 yearsin web development, specializing in JavaScript,
+                    React.js, Node.js, Express.js, MongoDB and MySQL.and 2 years as an Android Developer delivering mobile solutions.
+                    Skilled in building and deploying robust applications with tools like Webpack.Proven ability to implement complex features
+                    and optimize performance using lazy loading and SSR techniques and API integration. I have successfully deployed projects
+                    on platforms such as Netlify, Render, and Vercel, ensuring optimized performance and seamless accessibility.Passionate about
+                    creating efficient and scalable web solutions.
+                    {/* With over 5 years of experience in web development, I specialize in frontend technologies such as HTML, CSS, Bootstrap, JavaScript, and jQuery. I have honed my skills in React.js, including Material-UI and TypeScript, with 2 years of hands-on experience. Recently, I've been expanding my expertise by learning backend technologies like Express.js and MongoDB, aiming to build full-stack applications seamlessly. My diverse skill set enables me to create dynamic and user-friendly web applications with a focus on modern design and functionality. */}
                 </p><br />
 
                 <button variant="outlined" className={styles.btn} onClick={() => downloadPDF()}>
