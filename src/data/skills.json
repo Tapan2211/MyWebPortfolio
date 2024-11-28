@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "skill": "ReactJs",
+        "image": "react.png"
+    },
+    {
+        "id": 2,
+        "skill": "HTML",
+        "image": "html.png"
+    },
+    {
+        "id": 3,
+        "skill": "CSS",
+        "image": "css.png"
+    },
+    {
+        "id": 4,
+        "skill": "NodeJs",
+        "image": "node.png"
+    },
+    {
+        "id": 5,
+        "skill": "ExpressJs",
+        "image": "express.png"
+    },
+    {
+        "id": 6,
+        "skill": "MongoDB",
+        "image": "mongodb.png"
+    },
+    {
+        "id": 7,
+        "skill": "MySQL",
+        "image": "mysql.png"
+    },
+    {
+        "id": 8,
+        "skill": "Typescript",
+        "image": "typescript.png"
+    }
+]

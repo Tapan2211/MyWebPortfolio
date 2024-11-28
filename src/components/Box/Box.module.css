@@ -1,8 +1,99 @@
 .main {
   margin: 15px;
+  position: relative;
+  overflow: hidden;
+  /* Ensure the wave effect stays within the box */
 }
 
-/* Box.module.css */
+.main:hover {
+  opacity: 0.8;
+}
+
+/* Wave effect */
+.main::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  /* Start below the box */
+  left: -50%;
+  /* Start slightly off-center */
+  width: 200%;
+  /* Ensure it covers the entire box */
+  height: 200%;
+  /* Large enough for a wave effect */
+  background: radial-gradient(circle, rgba(186, 201, 100, 0.4) 10%, transparent 80%);
+  border-radius: 50%;
+  transform: scale(0);
+  /* Start with no wave */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 0;
+  /* Place behind content */
+  pointer-events: none;
+  /* Prevent interference with clicks */
+}
+
+.main:hover::before {
+  transform: scale(1);
+  /* Expand the wave */
+  opacity: 0.6;
+  /* Add a semi-transparent effect */
+  top: -50%;
+  /* Move the wave to cover the box */
+  left: -50%;
+  /* Center horizontally */
+}
+
+/* Content styles */
+.cardContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  position: relative;
+  /* Position relative to stay above the wave */
+  z-index: 1;
+  /* Ensure it appears above the wave effect */
+}
+
+.img {
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+}
+
+.logo {
+  background-color: #323232;
+  color: #bac964;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  height: 40px !important;
+  width: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo:hover {
+  background-color: #bac964;
+  color: white;
+}
+
+
+/* .main {
+  margin: 15px;
+}
+
 .cardContent {
   display: flex;
   justify-content: center;
@@ -42,4 +133,4 @@
 .logo:hover {
   background-color: #bac964;
   color: white;
-}
+} */
