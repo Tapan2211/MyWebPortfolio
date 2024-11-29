@@ -7,14 +7,15 @@ import MYPHOTO from '../../assets/my_pic.jpg';
 function About() {
 
     const downloadPDF = () => {
-        const pdfURl = 'resume.pdf';
+        const pdfURL = '/resume_tapan_ghataliya.pdf'; // Correct path
         const link = document.createElement("a");
-        link.href = pdfURl;
-        link.download = "document.pdf";
+        link.href = pdfURL;
+        link.download = "resume_tapan_ghataliya.pdf"; // Specify the filename for download
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-    }
+    };
+
 
     return (
         <div id="about" className={styles.main}>

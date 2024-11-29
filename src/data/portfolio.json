@@ -43,7 +43,7 @@
     },
     {
         "id": 7,
-        "p_name": "News feed",
+        "p_name": "Nature",
         "github": "https://github.com/Tapan2211/nature",
         "p_url": "https://nature-beta-two.vercel.app/",
         "image": "nature.png"
